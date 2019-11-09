@@ -1,7 +1,7 @@
 class Computer
 
-  attr_reader :name
-  attr_reader :points
+  attr_reader :name, :points
+
   DEFAULT_POINTS = 0
 
   def initialize(*)
@@ -26,4 +26,3 @@ class Computer
   end
 
 end
-

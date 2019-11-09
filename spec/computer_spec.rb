@@ -18,13 +18,10 @@ describe Computer do
     end
   end
 
-  # describe '#weapon' do
-  #   it 'chooses a weapon' do
-  #     allow(computer).to receive(:weapon) {:rock}
-  #     expect(computer.weapon).to eq(:rock)
-  #   end
-  # end
+  describe '#weapon' do
+    it 'chooses a weapon' do
+      allow(computer).to receive(:weapon) {:rock}
+      expect(computer.weapon).to eq(:rock)
+    end
+  end
 end
-
-
-

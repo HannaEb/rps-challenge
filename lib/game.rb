@@ -58,5 +58,5 @@ class Game
   def winner
     @winner.name
   end
+  
 end
-
